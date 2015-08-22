@@ -1,0 +1,28 @@
+{
+    "name": "SENSEI NOTE Notify",
+    "version": "0.1",
+    "manifest_version": 2,
+
+    "description": "SENSEI NOTEからのお知らせを受けとろう",
+
+    "permissions": [
+        "cookies",
+        "http://localhost:3000/"
+    ],
+
+    "icons": {
+        "128": "icons/128.png",
+        "16": "icons/16.png",
+        "32": "icons/32.png",
+        "48": "icons/48.png"
+    },
+
+    "background": {
+        "scripts": ["background.js"]
+    },
+
+    "browser_action": {
+        "default_popup": "popup.html"
+    }
+}
+
